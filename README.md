@@ -1,5 +1,3 @@
-Let me create an improved "Download the Results" section using the provided code sample.
-
 # Metagrapho HTR Image Processor
 
 A Python toolkit for handwritten text recognition (HTR) processing using the [Metagrapho API](https://www.metagrapho.com/).
@@ -59,7 +57,7 @@ python start_job_for_image_via_base64.py \
 
 ### Download the Results
 
-Use the `download_results_from_json.py` script to retrieve processed results from completed jobs:
+Use the `download_results_from_json.py` script to retrieve processed results from completed jobs (Transkribus might take some time to finish the submitted jobs, please check in the WebApp):
 
 ```bash
 python download_results_from_json.py \
@@ -101,6 +99,8 @@ Job metadata is saved as JSON files with the following structure:
 
 ## Available Models
 
+Models and their IDs can be easily found in the Transkribus WebApp
+
 ### HTR Models
 
 | Model Name | ID | Notes |
@@ -115,11 +115,8 @@ Job metadata is saved as JSON files with the following structure:
 |------------|-------|
 | Default | 51962 |
 
-## Advanced Usage
-
-- The scripts provide basic job submission and status checking
-- For continuous polling or waiting for job completion, consider extending the scripts
-- Results can be downloaded once processing is complete
+## TBD
+For continuous polling or waiting for job completion, consider extending the scripts
 
 ## License
 
