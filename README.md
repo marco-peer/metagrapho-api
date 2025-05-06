@@ -1,6 +1,6 @@
-# Metagrapho HTR Image Processor
+# Metagrapho HTR Image Processor for Transkribus in Python
 
-A Python toolkit for handwritten text recognition (HTR) processing using the [Metagrapho API](https://www.metagrapho.com/).
+A Python toolkit for handwritten text recognition (HTR) processing using the [Metagrapho API from Transkribus](https://www.transkribus.org/metagrapho).
 
 ## Overview
 
