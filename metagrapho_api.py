@@ -173,7 +173,7 @@ class MetagraphoAPI:
         if layout_content:
             payload["content"] = layout_content
         else:
-            payload["lineDetection"] = {
+            payload["config"]["lineDetection"] = {
                 "modelId": 51962 # Default line detection model ID
             }
             

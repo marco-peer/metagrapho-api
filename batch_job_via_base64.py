@@ -56,7 +56,8 @@ def process_image(api, image_path, htr_model):
             xml_input = f.read()
 
         layout_json = convert_xml2json(xml_input)
-
+    layout_json = None
+    XML_PATH = None
     process_id = api.submit_image_by_base64(base64_str, HTR_ID, layout_content=layout_json)
     # process_id = randint(0,10000)
 
