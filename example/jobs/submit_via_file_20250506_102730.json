@@ -1,0 +1,9 @@
+{
+    "16311750": {
+        "status": "WAITING",
+        "process_id": 16311750,
+        "image_path": ".\\example\\src\\0001_p001.jpg",
+        "htr_model": 309593,
+        "layout_xml": "example\\src\\xml\\0001_p001.xml"
+    }
+}

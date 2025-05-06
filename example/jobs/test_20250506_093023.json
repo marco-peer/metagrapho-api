@@ -1,0 +1,9 @@
+{
+    "16310985": {
+        "status": "WAITING",
+        "process_id": 16310985,
+        "image_url": "https://bullinger-stiftung.ch/wp-content/uploads/2022/01/Jost-von-Meggen-an-Bullinger_01.png",
+        "htr_model": 309593,
+        "line_detection_model": 51962
+    }
+}
