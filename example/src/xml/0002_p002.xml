@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-04-23T13:03:45.104+02:00</Created>
+        <LastChange>2025-04-25T17:17:56.560+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="0002_p002.jpg" imageWidth="3508" imageHeight="2479">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1745930068396" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="1302,1083 1302,1421 2201,1421 2201,1083"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1305,1176 1349,1170 1394,1170 1439,1170 1484,1167 1529,1170 1573,1167 1618,1167 1663,1167 1708,1164 1753,1167 1797,1164 1842,1167 1887,1167 1932,1164 1977,1164 2021,1164 2066,1167 2111,1164 2156,1164 2201,1167 2201,1086 2156,1083 2111,1083 2066,1086 2021,1083 1977,1083 1932,1083 1887,1086 1842,1086 1797,1083 1753,1086 1708,1083 1663,1086 1618,1086 1573,1086 1529,1089 1484,1086 1439,1089 1394,1089 1349,1089 1305,1095"/>
+                <Baseline points="1305,1149 1349,1143 1394,1143 1439,1143 1484,1140 1529,1143 1573,1140 1618,1140 1663,1140 1708,1137 1753,1140 1797,1137 1842,1140 1887,1140 1932,1137 1977,1137 2021,1137 2066,1140 2111,1137 2156,1137 2201,1140"/>
+                <TextEquiv>
+                    <Unicode>Plane docto ac pio viro</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="1302,1299 1344,1291 1387,1287 1429,1290 1472,1288 1514,1285 1557,1282 1599,1281 1642,1279 1684,1278 1727,1277 1770,1275 1812,1275 1855,1275 1897,1276 1940,1277 1982,1276 2025,1281 2067,1281 2110,1281 2153,1278 2153,1197 2110,1200 2067,1200 2025,1200 1982,1195 1940,1196 1897,1195 1855,1194 1812,1194 1770,1194 1727,1196 1684,1197 1642,1198 1599,1200 1557,1201 1514,1204 1472,1207 1429,1209 1387,1206 1344,1210 1302,1218"/>
+                <Baseline points="1302,1272 1344,1264 1387,1260 1429,1263 1472,1261 1514,1258 1557,1255 1599,1254 1642,1252 1684,1251 1727,1250 1770,1248 1812,1248 1855,1248 1897,1249 1940,1250 1982,1249 2025,1254 2067,1254 2110,1254 2153,1251"/>
+                <TextEquiv>
+                    <Unicode>Heynricho Bullingero,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1335,1421 1377,1411 1419,1403 1461,1400 1504,1397 1546,1397 1588,1392 1630,1391 1673,1391 1715,1391 1757,1389 1799,1389 1842,1391 1884,1391 1926,1391 1968,1392 2011,1394 2053,1395 2095,1397 2137,1397 2180,1403 2180,1322 2137,1316 2095,1316 2053,1314 2011,1313 1968,1311 1926,1310 1884,1310 1842,1310 1799,1308 1757,1308 1715,1310 1673,1310 1630,1310 1588,1311 1546,1316 1504,1316 1461,1319 1419,1322 1377,1330 1335,1340"/>
+                <Baseline points="1335,1394 1377,1384 1419,1376 1461,1373 1504,1370 1546,1370 1588,1365 1630,1364 1673,1364 1715,1364 1757,1362 1799,1362 1842,1364 1884,1364 1926,1364 1968,1365 2011,1367 2053,1368 2095,1370 2137,1370 2180,1376"/>
+                <TextEquiv>
+                    <Unicode>domino primum observando. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Plane docto ac pio viro&#13;
+Heynricho Bullingero,&#13;
+domino primum observando. </Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

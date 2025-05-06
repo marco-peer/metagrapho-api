@@ -168,10 +168,15 @@ class MetagraphoAPI:
             }
         }
 
+
         # Optionally include layout information if provided
         if layout_content:
             payload["content"] = layout_content
-
+        else:
+            payload["lineDetection"] = {
+                "modelId": 51962 # Default line detection model ID
+            }
+            
         response = requests.post(url, json=payload, headers=headers)
         if response.status_code == 200:
             data = response.json()
